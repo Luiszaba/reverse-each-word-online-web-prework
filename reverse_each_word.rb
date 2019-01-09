@@ -1,3 +1,3 @@
 def reverse_each_word(reverse)
-  reverse.split.reverse.join(" ")
+  reverse.split.reverse.each do |reverse|
 end
