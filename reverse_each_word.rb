@@ -1,3 +1,3 @@
 def reverse_each_word(reverse)
-  reverse.split.reverse.each do |reverse|
+  reverse.split.collect {|reverse| reverse.reverse}
 end
